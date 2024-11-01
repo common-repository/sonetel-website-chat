@@ -1,0 +1,96 @@
+.wp_sonetel_admin_main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.wp_sonetel_admin_box {
+    width: 480px;
+    background-color: white;
+    box-shadow: 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.wp_sonetel_admin_bar_success {
+    background: #f6f8fa;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 14px 16px;
+    display: flex;
+}
+
+.wp_sonetel_admin_bar_span {
+    color: #89909a;
+    font-size: 15px;
+    font-family: Avenir Next, Noto Sans, Arial, Helvetica, Sans Serif;
+    line-height: 19px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.wp_sonetel_admin_logo {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.wp_sonetel_admin_row {
+    padding-top: 15px;
+}
+
+.wp_sonetel_admin_button.button_connect {
+    background: #68d0d0;
+    color: #fff;
+}
+
+.wp_sonetel_admin_button.button_disconnect {
+    background: #d0655b;
+    color: #fff;
+}
+
+.wp_sonetel_admin_button_ext {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.wp_sonetel_admin_button_ext {
+    font-family: "Avenir Next", "Noto Sans", "Arial", "Helvetica", "Sans Serif";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.wp_sonetel_admin_button {
+    height: 48px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.wp_sonetel_modal {
+    display: block;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fefefe;
+}
+
+.wp_sonetel_modal_content {
+    background-color: #fefefe;
+    position: absolute;
+    left: 43%;
+    top: 45%;
+}
+
+.wp_sonetel_spinner {
+    width: 60px;
+    height: 60px;
+}
